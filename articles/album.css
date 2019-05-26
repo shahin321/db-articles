@@ -35,3 +35,7 @@ footer p {
 .card-img-top {
   height: 225px;
 }
+
+.card-img{
+  height: 450px;
+}
