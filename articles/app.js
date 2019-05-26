@@ -39,7 +39,7 @@ function myFunction(id){
     let parserHTML = new DOMParser();
     let template = parserHTML.parseFromString(templateString, 'text/html').body.firstChild;
 
-    fetch('https://my-json-server.typicode.com/shahin321/dbarticles/articles' + id)
+    fetch('https://my-json-server.typicode.com/shahin321/db-articles/articles' + id)
       .then(response => response.json())
       .then(articles => {
         if (articles){
@@ -58,7 +58,7 @@ function myFunction(id){
       let parserHTML = new DOMParser();
       let template   = parserHTML.parseFromString(templateString,'text/html').body.firstChild;
 
-      fetch('https://my-json-server.typicode.com/shahin321/dbarticles/articles')
+      fetch('https://my-json-server.typicode.com/shahin321/db-articles/articles')
         .then( response => response.json() )
         .then( articles => {
 
