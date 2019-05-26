@@ -1,29 +1,29 @@
 {
-        "articles" : [
-                {
-                        "id" :  1,
-                        "title" : "Titre 1",
-                        "content" : "Contents 1",
-                        "image" : "images/ant-man.jpg"
-                },
-                {
-                        "id" :  2,
-                        "title" : "Titre 2",
-                        "content" : "Contents 2",
-                        "image" : "images/groot.jpg"
-                },   
-                {
-                        "id" :  3,
-                        "title" : "Titre 3",
-                        "content" : "Contents 3",
-                        "image" : "images/racoon.jpg"
+   "articles" : [
+        {
+                "id" :  1,
+                "title" : "Titre 1",
+                "content" : "Contents 1",
+                "image" : "images/ant-man.jpg"
+        },
+        {
+                "id" :  2,
+                "title" : "Titre 2",
+                "content" : "Contents 2",
+                "image" : "images/groot.jpg"
+        },   
+        {
+                "id" :  3,
+                "title" : "Titre 3",
+                "content" : "Contents 3",
+                "image" : "images/racoon.jpg"
 
-                }, 
-                {
-                        "id" :  4,
-                        "title" : "Titre 4",
-                        "content" : "Contents 4",
-                        "image" : "images/black-panther2.jpg"
-                }
-        ]
+        }, 
+        {
+                "id" :  4,
+                "title" : "Titre 4",
+                "content" : "Contents 4",
+                "image" : "images/black-panther2.jpg"
+        }
+   ]
 }
