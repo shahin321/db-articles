@@ -31,3 +31,7 @@ footer {
 footer p {
   margin-bottom: .25rem;
 }
+
+.card-img-top {
+  height: 225px;
+}
