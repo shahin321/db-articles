@@ -16,13 +16,14 @@
                         "id" :  3,
                         "title" : "Titre 3",
                         "content" : "Contents 3",
-                        "image" : "images/black-panther2.jpg"
+                        "image" : "images/raccoon.jpg"
+
                 }, 
                 {
                         "id" :  4,
                         "title" : "Titre 4",
                         "content" : "Contents 4",
-                        "image" : "images/raccoon.jpg"
+                        "image" : "images/black-panther2.jpg"
                 }
         ]
 }
