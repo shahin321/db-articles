@@ -50,7 +50,7 @@
                     let clone = template.cloneNode(true);
                     clone.querySelector('[article-title]').innerText = article.title;
                     clone.querySelector('[article-image]').setAttribute("src", article.image );
-                    clone.querySelector('[article-excerpt]').innerText = article.excerpt;
+                    clone.querySelector('[article-content]').innerText = article.content;
                         //crée un clone
                     document.querySelector('#articles').appendChild(clone);
                }
