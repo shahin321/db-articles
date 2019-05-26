@@ -79,6 +79,9 @@ let template = parserHTML.parseFromString(templateString, 'text/html').body.firs
 				input.setAttribute("type", "hidden")
 				input.id = 'input_' + article.id ;
 				input.value = article.id ;
+				var button = document.createElement('input');
+				button.setAttribute('type', 'submit');
+				button.innerHTML = 'Lire plus';
 				button.addEventListener('click', function(){myFunction(article.id)});
 				document.querySelector('#articles').appendChild(clone);
 				document.querySelector('#articles').appendChild(input);
