@@ -72,8 +72,8 @@ function myFunction(id){
 				input.setAttribute("type", "hidden")
 				input.id = 'input_' + article.id ;
 				input.value = article.id ;
-				var button = document.createElement('input');
-				button.setAttribute('type', 'submit');
+				var button = document.createElement('button');
+				button.setAttribute('type', 'button');
 				button.innerHTML = 'Lire plus';
 				button.addEventListener('click', function(){myFunction(article.id)});
 				document.querySelector('#articles').appendChild(clone);
