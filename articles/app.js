@@ -33,7 +33,7 @@
 
 //FETCH
 function myFunction(id){
-  fetch('article-content.html.tpl')
+  fetch('content-article.html.tpl')
   .then(response => response.text())
   .then(templateString => {
     let parserHTML = new DOMParser();
